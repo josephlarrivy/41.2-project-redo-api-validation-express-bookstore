@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 const ExpressError = require("./expressError")
-const bookRoutes = require("./routes/books");
+const bookRoutes = require("./routes/booksRoutes");
 
 app.use("/books", bookRoutes);
 
